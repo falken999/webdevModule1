@@ -1,0 +1,33 @@
+*{
+  margin=0;
+  padding=0;
+  background-color: lightblue;
+}
+body{
+  font-family: Sans-Serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#screen{
+  width: 80%;
+  margin: 2%;
+  border-radius: 7px;
+}
+.buttons{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 5px;
+}
+button:hover {
+  background-color: #c8e6c9; /* Light Green */
+}
+button:active {
+  background-color: #81c784; /* Medium Green */
+  transform: scale(0.95);
+}
+.num{
+  border-radius: 7px;
+}
