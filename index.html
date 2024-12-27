@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <input type="text" id="screen" disabled/>
+      <div class="buttons">
+        <button class="num" onclick="clickNumber('7')">7</button>
+        <button class="num" onclick="clickNumber('8')">8</button>
+        <button class="num" onclick="clickNumber('9')">9</button>
+        <button class="operator" onclick="setOperator('+')">+</button>
+  
+        <button class="num" onclick="clickNumber('4')">4</button>
+        <button class="num" onclick="clickNumber('5')">5</button>
+        <button class="num" onclick="clickNumber('6')">6</button>
+        <button class="operator" onclick="setOperator('-')">-</button>
+  
+        <button class="num" onclick="clickNumber('1')">1</button>
+        <button class="num" onclick="clickNumber('2')">2</button>
+        <button class="num" onclick="clickNumber('3')">3</button>
+        <button class="operator" onclick="setOperator('*')">*</button>
+  
+        <button class="num" onclick="clickNumber('0')">0</button>
+        <button class="num" onclick="clearScreen()">AC</button>
+        <button class="num" onclick="calculateResult()">=</button>
+        <button class="operator" onclick="setOperator('/')">/</button>
+      </div>
+      <script src="script.js"></script>
+  </body>
+</html>
